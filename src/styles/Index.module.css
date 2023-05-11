@@ -1,0 +1,18 @@
+body {
+	background: rgb(26, 26, 26);
+	color: rgba(186,196,184,255);
+	font-family: "AlesandRegular", monospace;
+    font-size: 1.1em;
+}
+
+@font-face {
+    font-family: "AlesandRegular";
+    src: local("AlesandRegular"),
+        url("../fonts/Alesand_Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "chakra";
+    src: local("Chakra"),
+        url("../fonts/ChakraPetch-Regular.ttf") format("truetype");
+}

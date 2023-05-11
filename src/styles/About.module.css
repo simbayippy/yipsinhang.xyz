@@ -1,0 +1,40 @@
+.main {
+    width: 64%;
+    height: 85svh;
+    margin: auto;
+    font-family: 'Arial', Arial, sans-serif;
+    /* border: 1px solid white; */
+    display: flex;
+    /* padding-top: 6svh; */
+    align-items: center;
+}
+
+.textContent {
+    width: 80%;
+    /* margin-top: 10svh; */
+    /* border: 1px solid red; */
+    padding-right: 4vw;
+    font-size: 1.05em;
+}
+
+.title {
+    font-family: "AlesandRegular", monospace;
+    font-size: 2.6em;
+    color: rgb(152, 167, 148)
+}
+
+.para2 {
+    padding-top: 5px;
+    /* border: 1px solid red; */
+}
+
+.profilePicture {
+    margin-top: 14svh;
+    width: 400px;
+    height: 380px;
+    object-fit:cover;
+    filter: sepia(100%) hue-rotate(185deg);
+    opacity: 0.8;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}

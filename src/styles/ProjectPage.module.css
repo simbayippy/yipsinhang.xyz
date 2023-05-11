@@ -1,0 +1,16 @@
+.main {
+    width: 64%;
+    height: 100svh;
+    margin: auto;
+    font-family: 'Arial', Arial, sans-serif;
+    /* border: 1px solid red; */
+    margin-top: 14svh;
+    padding-top: 6svh;
+}
+
+.title {
+    font-family: "AlesandRegular", monospace;
+    font-size: 2.6em;
+    color: rgb(152, 167, 148);
+    margin-bottom: 5svh;
+}

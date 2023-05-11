@@ -1,0 +1,30 @@
+.main {
+    width: 32%;
+    height: 55svh;
+    margin: auto;
+    font-family: 'Arial', Arial, sans-serif;
+    /* border: 1px solid red; */
+    margin-top: 20svh;
+    /* padding-top: 6svh; */
+    text-align: center;
+}
+
+.title {
+    font-family: "AlesandRegular", monospace;
+    font-size: 2.6em;
+    color: rgb(152, 167, 148);
+    margin-bottom: -1.5svh;
+}
+
+.description {
+    margin-top: 4svh;
+}
+
+.links {
+    margin-top: 5svh;
+    /* border: 1px solid white; */
+}
+
+.icon {
+    padding: 10px;
+}
