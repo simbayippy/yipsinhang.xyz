@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
-const Projects = ({title, date, description, technologies, github, website}) => {
+const Projects = ({link, title, date, description, technologies, github, website}) => {
     return (
-        <main className={styles.main}>
-            <Link href="/" className={styles.title}>
+        <main className={styles.main} data-aos="fade-up">
+            <Link href={link} className={styles.title}>
                 {title}
             </Link>
             <p className={styles.date}>
@@ -20,7 +20,7 @@ const Projects = ({title, date, description, technologies, github, website}) => 
             <p className={styles.technologies}>
                 <span className={styles.techWord}>Technologies:</span> {technologies}
             </p>
-            <Link href="/" className={styles.readMore}>
+            <Link href={link} className={styles.readMore}>
                 Read
             </Link>
             <div className={styles.links}>

@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
     return (
-        <main className={styles.main} id="contactPage">
+        <main className={styles.main} id="contactPage"  data-aos="fade-up">
             <h1 className={styles.title}>Contact</h1>   
             <div className={styles.textContent}>
                 <p>
@@ -20,11 +20,11 @@ const Contact = () => {
                     reach out to me.
                 </p>
                 <div className={styles.links}>
-                    <Link to="https://www.linkedin.com/in/simbayip/" target='_blank' className={styles.icon}>
-                        <FontAwesomeIcon icon={faLinkedin} size="2xl" color='rgb(165, 161, 161)'/>
+                    <Link to="https://www.linkedin.com/in/simbayip/" target='_blank'>
+                        <FontAwesomeIcon icon={faLinkedin} size="2xl" color='rgb(165, 161, 161)' className={styles.icon}/>
                     </Link>
-                    <Link href="mailto:simbayippy@example.com" className={styles.icon}>
-                        <FontAwesomeIcon icon={faEnvelope} size="2xl" color='rgb(165, 161, 161)'/>
+                    <Link href="mailto:simbayippy@example.com">
+                        <FontAwesomeIcon icon={faEnvelope} size="2xl" color='rgb(165, 161, 161)' className={styles.icon}/>
                     </Link>
                 </div>
 

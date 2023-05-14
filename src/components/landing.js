@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Link } from 'gatsby'
 import { Link as ScrollLink } from "react-scroll";
 import animateText from '../animations.js';
-import animateExplosive from '../animationExplosive';
 import * as styles from '../styles/Landing.module.css'
 
 const LandingPage = () => {
@@ -21,7 +20,7 @@ const LandingPage = () => {
         </div>
         <p className={styles.text}>
             <span className={`${styles.simba} ${styles.word}`} data-value="i'm simba." id="simba">i'm simba.</span>
-            {/* <ScrollLink to="aboutPage" smooth={true}> */}
+            <ScrollLink to="aboutPage" smooth={true}>
             <Link href="/about" className={`${styles.toFancy} ${styles.word}`}>
                 <span className={styles.letter}>s</span>
                 <span className={styles.letter}>o</span>
@@ -45,7 +44,7 @@ const LandingPage = () => {
                 <span className={styles.letter}>></span>
                 {/* software enthusiast -> */}
             </Link>
-            {/* </ScrollLink> */}
+            </ScrollLink>
         </p>
         <ScrollLink to="projectPage" smooth={true}>
         <Link href="/" id="cs" className={`${styles.text} ${styles.toFancy} ${styles.word}`}>

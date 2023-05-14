@@ -1,0 +1,50 @@
+.main {
+    margin: auto;
+    font-family: 'Arial', Arial, sans-serif;
+    width: 50%;
+    margin-top: 7svh;
+    /* border: 1px solid white; */
+    padding-bottom: 10svh;
+}
+
+.title {
+    /* border: 1px solid green; */
+    color: rgb(152, 167, 148);
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.coffeeHours {
+    width: 90%;
+    height: 330px;
+    display: block;
+    margin: auto;
+    margin-top: 4svh;
+}
+
+.date {
+    /* border: 1px solid green; */
+    color: rgb(165, 161, 161);
+    opacity: 0.8;
+}
+
+.links {
+    color: rgb(152, 167, 148);
+}
+
+.iconLinks {
+    display: flex;
+    width: 9%;
+    float: right;
+    justify-content: space-between;
+    transform: translateY(-2svh);
+    /* transform: translateX(-0.9); */
+    /* border: 1px solid red; */
+}
+
+.icon {
+    transition: 0.2s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.1);
+}

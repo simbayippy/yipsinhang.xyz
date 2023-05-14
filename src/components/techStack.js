@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const TechStack = () => {
     return (
-        <main className={styles.main}>
+        <main className={styles.main} data-aos="fade-up">
             <div className={styles.textContent}>
                 <h1 className={styles.title}>Tech Stack</h1>   
                 <p>These are the Programming Languages and Frameworks that's fueling my programming journey.</p>

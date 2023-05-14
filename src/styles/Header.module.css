@@ -2,7 +2,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 10svh;
+	height: 12svh;
 	/* border: 1px solid white; */
 	position: fixed;
 	top: 0;
